@@ -22,7 +22,8 @@ RUN useradd -m -s /bin/bash user \
   && mkdir -p /home/user/.config/code-server \
   /home/user/.local/share/code-server \
   /home/user/.local/bin \
-  /home/user/.npm-global
+  /home/user/.npm-global \
+  && chown -R user:user /home/user
 
 WORKDIR /home/user/agent-environment
 COPY --chown=user:user . /home/user/agent-environment
