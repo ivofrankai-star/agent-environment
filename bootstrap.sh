@@ -7,9 +7,9 @@ log() { echo "[bootstrap] $*"; }
 warn() { echo "[bootstrap] WARNING: $*" >&2; }
 
 write_env_from_secrets() {
-    log "Writing .env from runtime environment variables..."
-    ENV_FILE="$AGENT_ENV_DIR/.env"
-    > "$ENV_FILE"
+  log "Writing .env from runtime environment variables..."
+  ENV_FILE="$HOME_DIR/.env"
+  > "$ENV_FILE"
     for var in NVIDIA_API_KEY OPENROUTER_API_KEY TELEGRAM_BOT_TOKEN TELEGRAM_ALLOWED_USERS \
                HERMES_GATEWAY_TOKEN OPENCLAW_GATEWAY_TOKEN NOTION_API_KEY YOUTUBE_KEY \
                PAT_GITHUB SUPABASE_URL SUPABASE_ANON_KEY AGENT_COMMAND_WEBHOOK_SECRET; do
@@ -29,8 +29,8 @@ setup_hermes() {
     cp -r "$HERMES_AGENT_SRC" "$HERMES_HOME/hermes-agent"
     cp "$AGENT_ENV_DIR/config/hermes-config.yaml" "$HERMES_HOME/config.yaml" 2>/dev/null || true
 
-    if [ -f "$AGENT_ENV_DIR/.env" ]; then
-        cp "$AGENT_ENV_DIR/.env" "$HERMES_HOME/.env"
+    if [ -f "$HOME_DIR/.env" ]; then
+        cp "$HOME_DIR/.env" "$HERMES_HOME/.env"
     fi
 
     mkdir -p "$HERMES_HOME/skills"
@@ -56,8 +56,8 @@ setup_openclaw() {
     cp "$AGENT_ENV_DIR/config/openclaw-config.json" "$OPENCLAW_HOME/openclaw.json" 2>/dev/null || true
     cp -r "$AGENT_ENV_DIR/openclaw/configs/"* "$OPENCLAW_HOME/" 2>/dev/null || true
 
-    if [ -f "$AGENT_ENV_DIR/.env" ]; then
-        cp "$AGENT_ENV_DIR/.env" "$OPENCLAW_HOME/.env"
+    if [ -f "$HOME_DIR/.env" ]; then
+        cp "$HOME_DIR/.env" "$OPENCLAW_HOME/.env"
     fi
 
     cp -r "$AGENT_ENV_DIR/openclaw/workspace" "$OPENCLAW_HOME/workspace" 2>/dev/null || true
@@ -102,10 +102,10 @@ setup_opencode() {
 
 write_env_files() {
     log "Writing .env files..."
-    if [ -f "$AGENT_ENV_DIR/.env" ]; then
+    if [ -f "$HOME_DIR/.env" ]; then
         for dest in "$HOME_DIR/.hermes/.env" "$HOME_DIR/.openclaw/.env"; do
             mkdir -p "$(dirname "$dest")"
-            cp "$AGENT_ENV_DIR/.env" "$dest"
+            cp "$HOME_DIR/.env" "$dest"
         done
     fi
 }
