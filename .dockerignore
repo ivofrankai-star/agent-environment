@@ -1,0 +1,12 @@
+.git
+.env.local
+*.egg-info
+__pycache__/
+*.pyc
+node_modules/
+venv/
+.venv/
+*.log
+chrome-profiles/
+auth.json
+.cache/

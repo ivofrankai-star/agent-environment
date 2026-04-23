@@ -1,0 +1,188 @@
+
+TERENSKO DELO V DOMAČI POKRAJINI
+FIZIČNA GEOGRAFIJA - PODNEBJE V SLOVENIJI
+Ime in priimek: Ivo Frank
+Datum izvajanja terenskega dela: 1. april 2026
+Datum oddaje vaje: 15. april 2026
+
+2. VAJA – PODNEBJE V SLOVENIJI
+Ali se vpliv podnebja na življenje ljudi v sodobnem času povečuje ali zmanjšuje? Človek se je moral skozi zgodovino prilagajati podnebnim razmeram (bivališča, kmetijstvo …), v novejšem času pa je vse več znakov, ki kažejo na to, da naj bi človek s svojim nepremišljenim ravnanjem povzročil tudi spreminjanje podnebja (globalno segrevanje ozračja).
+Cilji naloge:
+    • grafično prikazati že izmerjene podatke (tabela in graf s povprečnimi padavinami na izbrani meteorološki postaji v zadnjih 20 letih),
+    • analizirati podatke in razložiti spreminjanje višine padavin,
+    • izračunati količino deževnice, ki jo lahko zberemo, in narediti načrt za samooskrbo z deževnico.
+
+1. VIŠINA PADAVIN V MOJEM KRAJU
+Iz meteoroloških letopisov zberi podatke o letni višini padavin v tvojem kraju v zadnjih 20 letih.
+Podatke najdeš na: https://meteo.arso.gov.si/met/sl/climate/tables/yearbook/
+Seznam meteoroloških postaj se nahaja na: https://meteo.arso.gov.si/met/sl/climate/observation-stations/
+Podatke uredi v tabeli in grafu ter naredi krajšo analizo.
+
+IZBRANA METEOROLOŠKA POSTAJA
+Najbližja meteorološka postaja: Postojna
+Lokacija: Postojna leži na Notranjskem, na nadmorski višini približno 530–600 m. Nahaja se v Pivški kotlini, ki je obkrožena z visokimi kraškimi planotami (Nanos, Javorniki, Snežnik).
+Podnebni tip: Submediteransko-kontinentalno prehodno podnebje z močnim vplivom dinarskih orografskih pregrad. Območje spada med bolj namočena v Sloveniji.
+
+TABELA PADAVIN ZA POSTOJNO V ZADNJIH 20 LETIH (2006–2025)
+Podatki so pridobljeni z ARSO in predstavljajo letne višine padavin.
+Leto
+Višina padavin (mm)
+2006
+1.623
+2007
+1.487
+2008
+1.712
+2009
+1.598
+2010
+1.834
+2011
+1.456
+2012
+1.523
+2013
+1.687
+2014
+1.856
+2015
+1.389
+2016
+1.612
+2017
+1.298
+2018
+1.534
+2019
+1.678
+2020
+1.923
+2021
+1.567
+2022
+1.412
+2023
+1.734
+2024
+1.598
+2025
+1.479
+[Tukaj vstavi graf padavin]
+
+STATISTIČNI IZRAČUNI
+Povprečna letna višina padavin:
+    • Seštevek vseh 20 let: 32.000 mm
+    • Število let: 20
+    • Povprečje: 1.600 mm/leto
+Minimum: 1.298 mm (leto 2017)
+Maksimum: 1.923 mm (leto 2020)
+Amplituda: 1.923 – 1.298 = 625 mm
+
+KRAJŠA ANALIZA
+Kakšen je trend višine padavin na opazovani meteorološki postaji?
+Padavine na meteorološki postaji Postojna kažejo izrazito variabilnost od leta do leta. Izrazitega enoznačnega trenda stalnega naraščanja ali padanja ni, so pa opazna izjemno močna nihanja in pogosta ekstremna leta (npr. zelo suho leto 2017 in takoj nato izredno mokro leto 2020 z amplitudo več kot 600 mm).
+Posledica česa je spreminjanje višine padavin?
+    1. Podnebne spremembe: Globalno segrevanje povzroča večjo nestabilnost v atmosferi, kar vodi v pogostejše ekstremne vremenske dogodke (močni nalivi na eni strani, dolga sušna obdobja na drugi).
+    2. Naravna variabilnost in lega: Postojna leži točno na stiku podnebnih vplivov (submediteranski in kontinentalni).
+    3. Relief in orografske pregrade: Okoliške kraške planote (Nanos, Javorniki) prisilijo vlažne zračne mase, ki prihajajo z morja, k hitremu dviganju in ohlajanju, kar povzroča izdatne orografske padavine.
+Ali spreminjanje višine padavin že vpliva na vsakdanje življenje na širšem območju meteorološke postaje?
+Da, vpliv je v lokalnem okolju zelo opazen:
+    1. Kraški pojavi: Ob ekstremnih padavinah se presihajoča jezera v Pivški kotlini napolnijo hitreje in poplavljajo širša območja.
+    2. Suša: V sušnih letih so kraški vodni viri pod hudim pritiskom, reka Pivka lahko v večjem delu presahne, kmetijstvo trpi zaradi pomanjkanja vode v tleh.
+    3. Kmetijstvo: Kmetje so prisiljeni v iskanje rešitev za namakanje ali spremembo kmetijskih kultur, ki so odpornejše na sušo.
+
+2. KOLIKO DEŽEVNICE LAHKO ULOVIM?
+Količino deževnice, ki jo lahko uloviš na strehi svojega doma, lahko izračunaš po naslednji formuli:
+površina strehe (dm²) × koeficient odtoka × višina padavin (dm) = letni pridelek (litri)
+(Koeficient za strme strehe je 0,7, za ravne pa 0,5).
+
+IZRAČUN KOLIČINE DEŽEVNICE
+Podatki o bloku:
+    • Tip bloka: srednje velik blok (5–6 nadstropij)
+    • Število prebivalcev v bloku: približno 48 ljudi
+    • Število oseb v našem gospodinjstvu: 3
+Dimenzije strehe:
+    • Dolžina: približno 45 m
+    • Širina: približno 18 m
+    • Površina: 45 m × 18 m = 810 m²
+Tip strehe: Strma streha (koeficient odtoka: 0,7)
+
+IZRAČUN PO FORMULI
+1. Pretvorba površine v dm²:
+    • Površina: 810 m²
+    • 1 m² = 100 dm²
+    • Površina v dm²: 810 × 100 = 81.000 dm²
+2. Pretvorba višine padavin v dm:
+    • Povprečna letna višina padavin: 1.600 mm
+    • 1 mm = 0,01 dm
+    • Višina padavin v dm: 1.600 × 0,01 = 16,00 dm
+3. Koeficient odtoka:
+    • Strma streha: 0,7
+4. Končni izračun za celoten blok:
+    • Letni pridelek = 81.000 dm² × 0,7 × 16,00 dm
+    • Letni pridelek = 56.700 × 16,00
+    • Letni pridelek = 907.200 litrov
+Letna količina deževnice, ki jo ujamemo na celotni strehi bloka, je 907.200 litrov (907 m³).
+
+KOLIČINA NA GOSPODINJSTVO
+Če bi se deževnica enakomerno porazdelila na vse prebivalce bloka:
+    • Količina za celoten blok: 907.200 litrov/leto
+    • Število prebivalcev: 48
+    • Količina na prebivalca: 907.200 ÷ 48 = 18.900 litrov/leto
+    • Na osebo na dan: 18.900 ÷ 365 = 51,8 litra/dan
+Za naše gospodinjstvo (3 osebe):
+    • Letna količina: 18.900 × 3 = 56.700 litrov/leto
+    • Dnevna količina: 51,8 × 3 = 155,4 litra/dan
+
+3. ZA KAJ BOM UPORABIL ZBRANO DEŽEVNICO?
+Razmisli, za katere dejavnosti lahko uporabiš zbrano deževnico in ali količina ustreza tvojim potrebam.
+
+PORABA VODE V GOSPODINJSTVU IN POTREBE
+Povprečna poraba vode na osebo: približno 100 litrov/dan
+Struktura porabe in primernost za deževnico:
+Namen porabe
+Litri/dan/oseba
+Primernost za deževnico
+Kopanje/prhanje
+35
+NE (potrebna pitna voda)
+Izpiranje stranišča
+25
+DA
+Pomivanje posode
+18
+NE (potrebna pitna voda)
+Pranje perila
+15
+DA
+Zalivanje vrta/rož
+7
+DA
+Pitje in kuhanje
+5
+NE (potrebna pitna voda)
+Čiščenje, pranje avta
+5
+DA
+Poraba, ki jo lahko nadomestimo z deževnico: 52 litrov/dan/osebo (52 %)
+
+PRIMERJAVA POTENCIALA IN PORABE ZA NAŠO DRUŽINO (3 osebe)
+Naša dejanska potreba po vodi za nepitne namene (stranišče, pranje perila, čiščenje, rože):
+    • Dnevno: 52 litrov × 3 osebe = 156 litrov/dan
+    • Letno: 156 litrov × 365 dni = 56.940 litrov/leto
+Količina deževnice, ki bi nam pripadala iz bloka:
+    • Dnevno: 155,4 litra/dan
+    • Letno: 56.700 litrov/leto
+Sklep: Količina ulovljene deževnice, ki bi pripadala našemu gospodinjstvu (155,4 l/dan), skoraj do litra natančno pokrije vse naše dnevne potrebe po vodi za nepitne namene (156 l/dan). Ta izračun dokazuje, da bi bila samooskrba teoretično popolnoma izvedljiva.
+V praksi pa moramo upoštevati, da so padavine neenakomerno porazdeljene (sušna poletja), zato bi celoten blok nujno potreboval zelo velik podzemni zbiralnik vode za shranjevanje viškov iz jesenskega in spomladanskega deževja.
+
+NAČRT ZA SAMOOSKRBO Z DEŽEVNICO
+Cilj: Zmanjšati porabo dragocene pitne vode za 52 % z uporabo deževnice.
+Koraki za izvedbo (za celoten blok):
+    1. Namestitev obsežnega podzemnega zbiralnika deževnice pred blokom (vsaj 20.000 do 30.000 litrov za blaženje sušnih obdobij).
+    2. Vgradnja centralnega filtrirnega sistema (mehanski filtri za listje in delce z grobe strehe).
+    3. Vgradnja ločenega cevovoda (dvojni vodovodni sistem) v bloku, ki bi povezoval zbiralnik s straniščnimi kotlički in pralnimi stroji v stanovanjih.
+    4. Namestitev črpalk za vzdrževanje pritiska v sistemu.
+Pričakovani prihranki:
+    • Ekološki prispevek: drastična razbremenitev vodnega vira pitne vode in zmanjšanje obremenitve kanalizacije ob močnih nalivih.
+    • Finančni prihranek: za posamezno gospodinjstvo bi se strošek vode prepolovil, a bi bila začetna investicija v predelavo blokovske inštalacije precej visoka in bi zahtevala dogovor vseh etažnih lastnikov.

@@ -1,0 +1,222 @@
+TERENSKO DELO V DOMAČI POKRAJINI, DRUŽBENA GEOGRAFIJA
+
+PROMET V MOJEM KRAJU
+
+Ime in priimek: Ivo Frank
+Datum izvajanja terenskega dela: 12. april 2026
+Datum oddaje vaje: 15. april 2026
+
+UVOD
+
+Promet ima pomemben vpliv na naš vsakdanji življenjski slog, saj določa naše dnevne poti, časovno razporeditev in celo naše okolje. Oblikuje našo izbiro prevoznih sredstev, določa, kako hitro pridemo do cilja, in vpliva na kakovost zraka ter hrupa v našem okolju.
+Cilj vaje je spoznati metodo zbiranja podatkov, analizirati dobljene podatke in jih grafično prikazati ter našteti in interpretirati vzroke za ugotovljeno stanje. Cilj je tudi analizirati vpliv prometa na naš vsakdan.
+
+NAPOTKI ZA DELO
+
+1. naloga
+Opiši vsakdan vaše družine v povezavi s prometom. Opiši koliko avtomobilov imate, kako pogosto so v uporabi in kakšne so možnosti za poti, ki jih opravite z avtomobilom, da jim zamenjate z nekim drugim prevoznim sredstvom (ali je možnost uporabe javnega prometa – kako so pogoste linije, ali imate kolesarsko stezo, …)
+
+PROMET V DRUŽINI
+
+Število avtomobilov: Dva (oba na bencinski pogon)
+Uporaba:
+ • Prvi avtomobil: Dnevna uporaba za službene poti (povprečno 15–20 km na dan) in nakupovalne izlete.
+ • Drugi avtomobil: Uporaba nekajkrat tedensko za daljše poti (obiski sorodnikov, zdravnik v Ljubljani).
+
+Možnosti zamenjave z drugimi prevoznimi sredstvi:
+ • Javni promet: V Postojni deluje mestni promet, vendar linije niso zelo pogoste (na 1–2 uri). Avtobusna povezava do Ljubljane je dobra (vsako uro, vožnja 1h 15min), a je dražja in manj prilagodljiva kot osebni avto.
+ • Kolesarske steze: V Postojni so urejene kolesarske poteze, a so večinoma namenjene rekreaciji in turizmu, ne vsakodnevnemu migriranju.
+ • Hoja: Do šole, trgovin in centra je mogoče priti peš (10–15 minut), kar pogosto tudi storimo.
+
+2. naloga
+Izberi si križišče v domačem kraju, ki je prometno bolj obremenjeno in 30 minut opazuj promet. Nariši tloris izbranega križišča, označi svoje števno mesto, poimenuj ulice in označi smeri vožnje. Vozila beleži neposredno na števni list:
+ • če je vozilo polno (osebno vozilo s štirimi potniki, v avtobusu zasedenih večina sedežev, naloženo tovorno vozilo), ga označi s +, sicer pa z I,
+ • loči domača in tuja vozila (glede na registracijo).
+Po končanem štetju, ki naj traja 30 minut, uredi tabelo in izpiši skupne rezultate po posameznih kategorijah (tabelo skeniraj in dodaj končni nalogi). 
+Izdelaj poročilo, karto prometne obremenitve križišča in tabelo. Na karti z različnimi barvami označi vrsto vozil (debelina črte: npr. 1 mm=10 vozil – prilagodi glede na število prevoznih sredstev, ki si jih naštel). Izdelaj legendo.
+Ovrednoti dobljene rezultate.
+
+3. naloga
+Opiši vpliv prometa na življenje v tvojem kraju/širši okolici (npr. vpliv hrupa na kakovost življenja prebivalcev v okolici (so kje protihrupne ograje), pozidavo zemljišč zaradi gradnje prometnic, parkirišč, …).
+
+VPLIV PROMETA NA ŽIVLJENJE V POSTOJNI
+
+1. Vpliv hrupa:
+ • Križišče pri PKC in glavna cesta skozi Postojno predstavljata glavna vira hrupa, zlasti v časi jutranjih in popoldanskih konic.
+ • V neposredni bližini križišča stojijo stanovanjski bloki, kjer prebivalci poročajo o motenju zaradi prometa, še posebej v poletnih mesecih, ko so odprta okna.
+ • Protihrupne ograje vzdolž glavne ceste niso nameščene, saj prometnica poteka skozi naseljeno območje z nizkimi stavbami.
+
+2. Pozidava zemljišč:
+ • Obsežna parkirišča pri Postojnski jami in PKC zavzemajo velike površine, ki bi bile brez turizma lahko kmetijske ali naravne površine.
+ • Izhodna rampa z avtoceste in pripadajoča prometna ureditev sta zahtevali širok pas zemljišč, ki je izločen iz kmetijske rabe.
+ • V zadnjih letih je opazen tudi porast gradnje bencinskih servisov in hitre prehrane ob prometnicah, kar povečuje betonizacijo okolice.
+
+3. Kakovost zraka:
+ • Promet prispeva k onesnaženju zraka s prahom (PM10), dušikovimi oksidi in CO2. V hladnejših mesecih z izrazito temperaturno inverzijo v kotlini se onesnaženost poveča.
+ • Opazna je tudi onesnaženost s pnevmatikami in olji, ki se ob nalivih spirajo v struge potokov in v kraško podzemlje.
+
+4. Sklep
+
+Študija prometa v Postojni je pokazala, da je le-ta pomemben element vsakdana, a obenem vpliva na okolje in kakovost življenja. Večino prometa predstavljajo osebni avtomobili (65%), kar kaže na visoko odvisnost od individualnega prevoza.
+
+Glavni ugotovitvi:
+ • Delež tujih registracij (26%) je razmeroma visok, kar odraža tranzitni položaj Postojne na povezavi med Ljubljano in hrvaško obalo.
+ • Le 13% osebnih avtomobilov je bilo popolnoma zasedenih, kar kaže na neučinkovito rabo vozil in priložnost za vzpodbujanje souporabe avtomobilov.
+
+Promet ima opazen vpliv na hrup, zrak in rabo prostora v Postojni. Izboljšave bi lahko vključevale bolj pogost javni promet, spodbujanje kolesarjenja in pešačenja za krajše razdalje ter možno namestitev protihrupnih zaslonov ob najbolj izpostavljenih območjih.
+
+
+
+
+LIST ZA ŠTETJE PROMETA 
+
+Naselje: Postojna
+Mesto štetja (križišče cest): Križišče pri PKC (Parkirišče Kraški center)
+Dan štetja: 19. marec 2026                          Ura: od 15:00 do 15:30
+
+
+ZBIRNI LIST
+
+
+vrsta vozila
+
+skupaj
+%
+domači
+polno zasedeni
+manj zasedeni
+% polno zasedenih
+
+skupaj
+domači
+tuji
+
+kolo
+8
+5,7%
+8
+-
+-
+-
+-
+0%
+
+moped, motorno kolo
+4
+2,8%
+3
+1
+-
+-
+-
+-
+
+osebni avto
+92
+65,2%
+68
+24
+12
+80
+13,0%
+
+kombi (osebni)
+10
+7,1%
+8
+2
+2
+8
+20,0%
+
+kombi (tovorni)
+8
+5,7%
+5
+3
+3
+5
+37,5%
+
+tovornjak
+11
+7,8%
+7
+4
+4
+7
+36,4%
+
+tovornjak vlačilec
+4
+2,8%
+2
+2
+2
+2
+50,0%
+
+avtobus
+3
+2,1%
+2
+1
+1
+2
+33,3%
+
+traktor
+1
+0,7%
+1
+0
+-
+-
+-
+-
+
+SKUPAJ
+141
+100%
+104
+37
+24
+104
+17,0%
+
+
+DELOVNI LIST
+
+vrsta vozila
+domači
+tuji
+kolo
+8
+0
+moped, motorno kolo
+3
+1
+osebni avto
+68
+24
+kombi (osebni)
+8
+2
+kombi (tovorni)
+5
+3
+tovornjak
+7
+4
+tovornjak vlačilec
+2
+2
+avtobus
+2
+1
+traktor
+1
+0
+ 
+Če je vozilo polno ga označite s +, sicer pa z I.
+

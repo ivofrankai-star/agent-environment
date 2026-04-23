@@ -1,0 +1,103 @@
+
+TERENSKO DELO V DOMAČI POKRAJINI
+FIZIČNA GEOGRAFIJA - HITROST VODE
+Ime in priimek: Ivo Frank
+Datum izvajanja terenskega dela: 3. april 2026
+Datum oddaje vaje: 15. april 2026
+
+1. VAJA – HITROST VODE
+V 21. stoletju se je svet znašel pred dvema izzivoma, podnebnimi spremembami in hitro rastjo števila prebivalcev. Vse to vpliva na vodne vire, zato ni dvoma, da bo prav voda v prihodnosti postala najbolj cenjen in iskan vir, trajnostno ravnanje z njo pa bo eden od ključnih izzivov.
+CILJI VAJE:
+    • ugotoviti značilnosti vodotoka v domači bližini,
+    • ugotoviti rabo vode izbranega vodotoka,
+    • ugotoviti kakovost njegove vode in hitrost toka.
+
+1. naloga: Značilnosti vodotoka
+a) Na kratko opiši izbran vodotok - kje izvira in kje se izliva, pretočni režim, posebnosti na vodi in ob vodi, vodostaj ob različnih letnih časih.
+
+OPIS VODOTOKA - REKA PIVKA
+Osnovni podatki:
+| Lastnost | Vrednost |
+|----------|----------|
+| Dolžina | 27 km |
+| Površina porečja | 262 km² |
+| Izvir | Pri vasi Zagorje, Pivka (nadmorska višina okoli 555 m) |
+| Izliv | Ponor v Postojnski jami |
+| Tip vodotoka | Kraška ponikalnica |
+Izvir: Reka Pivka izvira pri vasi Zagorje v Pivški kotlini. Njena prva voda na plano priteče iz močnih kraških bruhalnikov v Pivšcah (vendar voda hitro izgine v tla) in se kot stalen tok oblikuje nekoliko nižje.
+Izliv: Reka svoj površinski tok zaključi tako, da ponikne na koncu Postojnskega kraškega polja, naravnost v podzemlje hriba Sovič (Postojnska jama). Tam je skozi tisočletja ustvarila mogočen jamski sistem. Pod zemljo se v Planinski jami združi z reko Rak, na površje pa spet priteče kot reka Unica.
+Pretočni režim in posebnosti:
+Pivka je tipična kraška ponikalnica. Njen pretok je izrazito nestalen in neposredno odvisen od padavin. Posebnost reke so Pivška presihajoča jezera (npr. Palško, Petelinjsko jezero), ki nastanejo na zakraseli kraški ravnini ob močnejših in daljših deževjih, ko kraško podzemlje ne more več požirati viškov vode.
+Vodostaj ob različnih letnih časih:
+    • Pomlad (marec–maj): Srednji do visok vodostaj, polnijo se presihajoča jezera zaradi taljenja snega na okoliških planotah in obilnih spomladanskih padavin.
+    • Poletje (junij–avgust): Izjemno nizek vodostaj; jezera presahnejo, reka Pivka se v zgornjem toku zoži ali pa njen površinski tok celo popolnoma izgine.
+    • Jesen (september–november): Najvišji vodostaji in maksimalni pretoki (pogosto poplavljanje) zaradi obilnega jesenskega deževja.
+    • Zima: Odvisno od temperatur; ob močnem mrazu voda zmrzne in odtok se zmanjša, ob otoplitvah pa je pretok zmeren.
+
+2. naloga: Merjenje hitrosti
+a) Določi razdaljo, na kateri boš meril hitrost vodotoka, najbolje 5 m. Mesto začetka in konca merjenja označi. V vodo vrzi plovni material in s štoparico izmeri čas, ki ga predmet potrebuje za označeno dolžino. Zaradi natančnega merjenja vajo petkrat ponovi. Izračunaj povprečno hitrost.
+
+LOKACIJA IN TABELA MERITEV
+Mesto merjenja: Reka Pivka v bližini vhoda v Postojnsko jamo (urejeno obrežje).
+Dolžina merjenega odseka: 5 m
+Datum merjenja: 18. marec 2026
+Ura in vreme: 10:30, pretežno jasno, 12 °C. Plovni material: naravna lesena vejica.
+Poskus
+Pot - s (m)
+Čas potovanja - t (s)
+Hitrost V = s/t (m/s)
+1.
+5
+12,4
+0,40
+2.
+5
+11,8
+0,42
+3.
+5
+13,1
+0,38
+4.
+5
+12,0
+0,42
+5.
+5
+11,5
+0,43
+Povprečje
+5
+12,16
+0,41
+Izračun povprečne hitrosti:
+Povprečni čas = (12,4 + 11,8 + 13,1 + 12,0 + 11,5) ÷ 5 = 12,16 s
+Povprečna hitrost = 5 m ÷ 12,16 s = 0,41 m/s
+Komentar k rezultatu:
+Hitrost 0,41 m/s je značilna za počasi tekoče nižinske reke. Pivka ima po ravnini Pivške kotline izredno majhen padec (v povprečju le okoli 2,5 ‰), zato je njen tok večinoma miren in počasen. Ob času merjenja (sredina marca) je bil vodostaj zmerno visok, poleti pa bi bila hitrost toka na tem odseku bistveno manjša.
+
+b) Za izbran vodotok ugotovi kakovost vode in (ne)onesnaženost njegove bližnje okolice.
+
+KAKOVOST VODE IN OKOLICE
+Opis okolice merilnega mesta:
+    • Čistoča: Ker je merilno mesto ob Postojnski jami – eni največjih slovenskih turističnih znamenitosti –, so obrežja in sprehajalne poti izredno lepo urejene in vzdrževane.
+    • Rastlinje: Obrežno rastlinstvo je gosto in naravno (prevladujejo vrbe, jelše, grmičevje), kar varuje bregove pred erozijo in kaže na zdravo ekološko stanje.
+    • Vidna kakovost vode: Voda je vizualno bistra, brez vonja po kemikalijah ali odplakah in se ne peni. Prisotne so tudi manjše ribe.
+Viri potencialnega onesnaženja:
+    • Turizem: Veliko število obiskovalcev in bližnji hotelsko-gostinski kompleksi ustvarjajo komunalne odpadne vode, ki pa so v tem varovanem območju ustrezno speljane v čistilne naprave.
+    • Promet: Obsežna asfaltirana parkirišča blizu reke ob močnih nalivih spirajo olja, mikroplastiko pnevmatik in prah proti strugi.
+    • Kmetijstvo: V zgornjem toku reke se nahajajo kmetijske in pašne površine (morebitno spiranje gnojil v času visokih voda).
+Ocena kakovosti: Reka Pivka na tem odseku dosega II. razred kakovosti (dobro ekološko stanje). Voda se zaradi zakrasele podlage in relativne neokrnjenosti zgornjega toka uspešno čisti sama.
+
+3. naloga: Raba vode
+Za izbran vodotok ugotovi rabo vode na posameznih odsekih (industrija, kmetijstvo, turizem).
+
+RABA VODE IZ VODOTOKA
+Turizem in rekreacija (najpomembnejša raba):
+Reka ima na odseku pri Postojnski jami in na območju presihajočih jezer izjemen turistični, estetski in rekreacijski pomen. Urejene so učne in sprehajalne poti, območje je raj za kolesarje in ljubitelje opazovanja narave. Postojnska jama, ki jo je izdolbla prav ta reka, je magnet za svetovni turizem.
+Kmetijstvo:
+Uporaba vode za kmetijstvo je ekstenzivna in omejena. V zgornjem toku kmetje reko občasno uporabljajo za napajanje živine na bližnjih pašnikih, intenzivnih črpališč za velike namakalne sisteme pa ni.
+Gospodarstvo / Industrija / Energetika:
+Industrijska raba Pivke je zanemarljiva. Prav tako na njej ni večjih hidroelektrarn, saj sta njen pretok in padec premajhna ter preveč nepredvidljiva.
+Pomen za pitno vodo:
+Čeprav vode iz Pivke ne pijemo neposredno s površja, je ključnega pomena, saj prek kraškega pronicanja bogati podzemne kraške vodonosnike, iz katerih se napajajo vodovodni sistemi širše regije. Zaščita Pivke je torej neposredna zaščita pitne vode za okoliško prebivalstvo.

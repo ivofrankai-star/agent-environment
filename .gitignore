@@ -1,0 +1,17 @@
+.env
+.env.local
+*.egg-info
+__pycache__/
+*.pyc
+node_modules/
+venv/
+.venv/
+*.log
+chrome-profiles/
+auth.json
+.cache/
+*.onnx
+*.zip
+*.pdf
+*.wav
+*.lockb

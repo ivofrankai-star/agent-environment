@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "runs": {
+    "cef3a8de-fd87-4d12-a689-29015c4bb92c": {
+      "runId": "cef3a8de-fd87-4d12-a689-29015c4bb92c",
+      "childSessionKey": "agent:main:subagent:a349ea46-e738-4769-a922-9d68c7ff6ebd",
+      "controllerSessionKey": "agent:main:main",
+      "requesterSessionKey": "agent:main:main",
+      "requesterOrigin": {
+        "channel": "telegram",
+        "to": "telegram:6735239700",
+        "accountId": "default"
+      },
+      "requesterDisplayKey": "agent:main:main",
+      "task": "List the available skills in the workspace and report back which ones are research-related.",
+      "cleanup": "keep",
+      "expectsCompletionMessage": true,
+      "spawnMode": "run",
+      "label": "researcher-kimi",
+      "model": "nvidia/moonshotai/kimi-k2.5",
+      "workspaceDir": "/home/ivo/.openclaw/workspace",
+      "runTimeoutSeconds": 0,
+      "createdAt": 1774988101243,
+      "startedAt": 1774988103946,
+      "sessionStartedAt": 1774988101243,
+      "accumulatedRuntimeMs": 0,
+      "cleanupHandled": true,
+      "retainAttachmentsOnKeep": false,
+      "endedAt": 1774988116963,
+      "outcome": {
+        "status": "ok"
+      },
+      "endedReason": "subagent-complete",
+      "frozenResultText": "## Task Complete\n\nFound **3 skills** in the workspace, and **all 3 are research-related**:\n\n| Skill | Purpose | Research Focus |\n|-------|---------|----------------|\n| **notebooklm-mcp** | NotebookLM CLI & MCP integration | AI-powered research notebooks, source analysis, report/podcast/flashcard generation |\n| **research** | Research subagent management | Orchestrates multi-source research workflows using YouTube, NotebookLM, web search |\n| **youtube-research** | YouTube video analysis | Video search, transcript extraction, content summarization |\n\nAll skills work together to enable comprehensive research workflows — from video content analysis to AI-powered synthesis and report generation.",
+      "frozenResultCapturedAt": 1774988117069,
+      "endedHookEmittedAt": 1774988512190,
+      "cleanupCompletedAt": 1774988512191
+    }
+  }
+}

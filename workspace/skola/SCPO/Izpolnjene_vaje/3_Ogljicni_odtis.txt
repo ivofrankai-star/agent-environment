@@ -1,0 +1,90 @@
+
+TERENSKO DELO V DOMAČI POKRAJINI
+DRUŽBENA GEOGRAFIJA - OGLJIČNI ODTIS
+Ime in priimek: Ivo Frank
+Datum izvajanja terenskega dela: 10. april 2026
+Datum oddaje vaje: 15. april 2026
+
+2. VAJA – OGLJIČNI ODTIS
+Namen naloge je spoznati kakšne posledice povzročajo emisije CO2 v okolju. Vsak posameznik danes čedalje bolj obremenjuje okolje, zato bi si moral vsak od nas prizadevati za zmanjšanje porabe energije in s tem za čim manjši ogljični odtis. Le tako bomo omogočili kakovostno življenje na Zemlji tudi našim zanamcem.
+
+1. TEORETIČNI DEL
+Kaj je ogljični odtis?
+Ogljični odtis (ang. carbon footprint) je skupna količina izpustov toplogrednih plinov (CO2, metan, didušikov oksid), ki jih posredno ali neposredno povzroči posameznik, organizacija ali dogodek skozi svoj življenjski slog, proizvodnjo in potrošnjo.
+Kako ga merimo oz. izražamo?
+Izraža se v tonah CO2-ekvivalenta na leto (t CO2eq/leto). S tem faktorjem vse toplogredne pline preračunamo na vpliv, ki ga ima sam ogljikov dioksid, kar omogoča enotno in standardizirano merjenje škodljivosti.
+Kaj predstavlja primarni in kaj sekundarni ogljični odtis?
+    • Primarni odtis: So neposredne emisije toplogrednih plinov, nad katerimi imamo direkten nadzor. Vključuje porabo fosilnih goriv za osebni transport (avtomobil, letalo) ter porabo energije za ogrevanje hiše in elektriko v gospodinjstvu.
+    • Sekundarni odtis: So posredne emisije, ki nastanejo ob proizvodnji in transportu stvari, ki jih kupujemo (hrana, oblačila, elektronika, storitve, javna infrastruktura).
+Koliko znaša povprečni ogljični odtis?
+    • V razvitem svetu: okoli 10 do 15 ton CO2/prebivalca/leto.
+    • V ZDA: približno 14,5 t CO2/prebivalca/leto (eden izmed najvišjih na svetu).
+    • V Sloveniji: približno 7,6 t CO2/prebivalca/leto (blizu povprečja EU, ki znaša 6,8 t).
+Koliko CO2 lahko narava letno absorbira?
+Planet Zemlja lahko prek gozdov, oceanov in tal letno absorbira približno 3–4 milijarde ton CO2. Globalne emisije pa presegajo 35 milijard ton letno, kar pomeni, da se v atmosferi kopiči presežek in povzroča globalno segrevanje.
+Kako bi lahko zmanjšali svoj ogljični odtis?
+Z zmanjšanjem uporabe avtomobilov (javni prevoz, kolesarjenje, deljenje prevozov), manjšim številom potovanj z letalom, energetsko sanacijo objektov (izolacija, menjava oken), nakupovanjem lokalne in sezonske hrane, zmanjšanjem vnosa mesa (predvsem govedine), uporabo varčnih naprav ter doslednim ugašanjem luči in zmanjšanjem potrošništva (zavrženih oblačil, elektronike).
+
+2. IZRAČUN OGLJIČNEGA ODTISA ZA MOJE GOSPODINJSTVO
+Podatki o gospodinjstvu: 3 družinski člani, živimo v bloku (centralna kurjava), uporabljamo dva avtomobila (bencin), z letali ne potujemo.
+Izračun primarnih emisij (letno):
+    • Električna energija: 4.200 kWh × 0,3 kg CO2/kWh = 1.260 kg CO2
+    • Ogrevanje (ocena za blok, 75 m²): 75 m² × 150 kWh/m² × 0,2 kg CO2/kWh = 2.250 kg CO2
+    • Prevoz (oba avtomobila, 4.060 km/leto): Poraba okoli 284 l bencina × 2,3 kg CO2/l = 654 kg CO2
+    • Letenje: 0 kg CO2
+    • SKUPAJ primarni odtis: 4.164 kg CO2 / 3 osebe = 1,39 t CO2 na osebo.
+Z dodanim povprečnim sekundarnim odtisom (prehrana, oblačila, potrošnja - približno 1,5 t/osebo), naš skupni ogljični odtis znaša približno 2,89 t CO2/osebo/leto.
+Ovrednotenje rezultata:
+Naš rezultat (2,89 t/osebo) je močno pod slovenskim povprečjem (7,6 t). Največji razlog za to je, da živimo v bloku, ki je prostorsko manjši od hiše in se ogreva skupinsko, poleg tega pa imamo zaradi bližine službe in trgovin zelo nizko prevoženo kilometrino z avtomobilom ter ne potujemo z letali.
+Najbolj energetsko potratni smo pri ogrevanju ter porabi električne energije.
+Načrt korakov za večjo energetsko učinkovitost:
+    • Menjava preostalih starih žarnic v stanovanju za LED-sijalke in dosledno izklapljanje elektronskih naprav iz stanja pripravljenosti (stand-by).
+    • Znižanje sobne temperature na termostatskih ventilih za 1 °C v zimskem času.
+    • Izbira kratkih ali eko programov pri uporabi pralnega stroja in pranje zgolj ob polni zmogljivosti bobna.
+
+3. ANALIZA ANKETNIH VPRAŠALNIKOV (5 gospodinjstev)
+Opravil sem kratko raziskavo energetske porabe, tipa bivanja in prometnih navad pri petih drugih gospodinjstvih.
+Anketiranec
+Tip bivanja
+Ogrevanje
+Vožnja in letenje
+Ocenjen primarni odtis na osebo
+1. Stari starši (2 osebi, podeželje)
+Hiša
+Les (biomasa)
+5.000 km, brez letenja
+1,33 t CO2/osebo
+2. Sosedje (4 osebe, mesto)
+Blok
+Centralno
+12.000 km, 1 kratek let
+1,59 t CO2/osebo
+3. Sorodniki (5 oseb, podeželje)
+Velika hiša
+Plin
+15.000 km, 1 dopust z letalom
+1,74 t CO2/osebo
+4. Prijatelj (3 osebe, primestje)
+Hiša
+Kurilno olje
+18.000 km (služba LJ), brez let.
+2,80 t CO2/osebo
+5. Znanec (2 osebi, blok)
+Blok
+Centralno
+8.000 km, 1 dolg let
+2,19 t CO2/osebo
+Povprečje vseh 5 anketirancev: (1,33 + 1,59 + 1,74 + 2,80 + 2,19) / 5 = 1,93 t CO2/osebo/leto
+Vzroki za razlike (Analiza):
+    • Ogrevanje in tip objekta: Daleč najmanjši primarni ogljični odtis imata stara starša, saj se ogrevata na les (biomaso), ki velja za obnovljiv vir in ima zelo nizek faktor emisij v primerjavi s kurilnim oljem, ki ga uporablja anketiranec št. 4 (ta ima zato tudi najvišji odtis). Bloki so na prebivalca energijsko zelo varčni.
+    • Dnevne migracije: Razdalja do delovnega mesta drastično vpliva na emisije. Prijatelj (anketiranec 4) se dnevno vozi v Ljubljano, kar ekstremno zviša njegov izpust fosilnih goriv v primerjavi s starimi starši ali nami, ki smo blizu mesta.
+    • Letenje: Anketirancu št. 5, čeprav živi v majhnem bloku in se malo vozi, ogljični odtis zelo hitro naraste že zaradi enega samega daljšega povratnega leta z letalom.
+    • Število prebivalcev v gospodinjstvu: Sorodniki (anketiranec 3) ogrevajo veliko hišo in letijo na dopust, a se njihov odtis porazdeli na kar 5 družinskih članov, zato izračun "na osebo" ne izpade tako kritično kot pri tistih, ki živijo sami ali v dvoje.
+
+4. SMISELNOST ZMANJŠANJA EMISIJ CO2
+Zakaj JE smiselno zmanjševati emisije CO2:
+Zmanjšanje je nujno zaradi ohranitve stabilnega podnebja za prihodnje generacije. Globalno segrevanje dokazano povzroča taljenje ledenikov, dvig morske gladine in ekstremne vremenske dogodke (suše, hude poplave, orkane). Omejitev emisij neposredno pomeni boljšo kakovost zraka in zdravja ljudi (manj bolezni dihal) ter zmanjšanje odvisnosti držav od uvoza dragih fosilnih goriv (nafte, plina). Ekološka preobrazba prinaša tudi nova, zelena delovna mesta in dolgoročne finančne prihranke v gospodinjstvih zaradi večje energijske učinkovitosti.
+Protiargumenti in moj pogled:
+Mnogi trdijo, da dejanja enega samega posameznika ne morejo rešiti planeta in da se morajo spremeniti predvsem velike industrije, korporacije ter največje države onesnaževalke (ZDA, Kitajska). Prav tako sta lahko nakup električnega vozila ali celovita energetska sanacija hiše preveliko finančno breme za povprečnega človeka.
+Kljub temu menim, da je ta pasivni pogled napačen, saj sprememba globalnega trga izvira prav iz množice posameznikov. Z majhnimi, brezplačnimi spremembami življenjskega sloga (ugasnjena luč, hoja namesto avtomobila) privarčujemo lasten denar, vplivamo na proizvajalce (z večjim povpraševanjem po trajnostnih izdelkih) in predvsem krepimo lastno ekološko zavest, s katero postavljamo pomemben zgled svoji neposredni okolici.
+

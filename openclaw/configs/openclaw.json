@@ -1,0 +1,354 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.4.5",
+    "lastTouchedAt": "2026-04-06T12:06:10.009Z"
+  },
+  "secrets": {
+    "providers": {
+      "default": {
+        "source": "env"
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "nvidia": {
+        "baseUrl": "https://integrate.api.nvidia.com/v1",
+        "api": "openai-completions",
+        "apiKey": {
+          "source": "env",
+          "provider": "default",
+          "id": "NVIDIA_API_KEY"
+        },
+        "models": [
+          {
+            "id": "nvidia/nemotron-3-super-120b-a12b",
+            "name": "NVIDIA Nemotron 3 Super 120B A12B",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1048576,
+            "maxTokens": 32768
+          },
+          {
+            "id": "z-ai/glm-5.1",
+            "name": "GLM 5.1",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 210000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-ai/deepseek-v3.2",
+            "name": "DeepSeek V3.2",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "moonshotai/kimi-k2.5",
+            "name": "Kimi K2.5",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          },
+          {
+            "id": "mistralai/mistral-large-3-675b-instruct-2512",
+            "name": "Mistral Large 3",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 4096
+          },
+          {
+            "id": "google/gemma-4-31b-it",
+            "name": "Gemma 4 31B IT",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 262144,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "ollama": {
+        "baseUrl": "http://127.0.0.1:11434",
+        "api": "ollama",
+        "apiKey": "ollama-local",
+        "models": [
+          {
+            "id": "glm-5.1:cloud",
+            "name": "GLM 5.1 Cloud",
+            "api": "ollama",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 202752,
+            "maxTokens": 131072
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "nvidia/z-ai/glm-5.1"
+      },
+      "models": {
+        "nvidia/z-ai/glm-5.1": {
+          "alias": "glm5.1"
+        },
+        "nvidia/deepseek-ai/deepseek-v3.2": {
+          "alias": "deepseek"
+        },
+        "nvidia/moonshotai/kimi-k2.5": {
+          "alias": "kimi"
+        },
+        "nvidia/mistralai/mistral-large-3-675b-instruct-2512": {
+          "alias": "mistral"
+        },
+        "nvidia/nvidia/nemotron-3-super-120b-a12b": {
+          "alias": "nemotron"
+        },
+        "ollama/glm-5.1:cloud": {
+          "alias": "glm5.1"
+        },
+        "nvidia/google/gemma-4-31b-it": {
+          "alias": "gemma4"
+        }
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      },
+      "compaction": {
+        "mode": "safeguard",
+        "memoryFlush": {
+          "enabled": true
+        }
+      },
+      "heartbeat": {
+        "every": "30m",
+        "activeHours": {
+          "start": "08:00",
+          "end": "20:00",
+          "timezone": "Europe/Ljubljana"
+        }
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "identity": {
+          "name": "bbymama",
+          "theme": "Warm, supportive, genuinely helpful",
+          "emoji": "📈"
+        },
+        "subagents": {
+          "allowAgents": [
+            "*"
+          ]
+        },
+        "tools": {
+          "allow": [
+            "read",
+            "exec",
+            "process",
+            "write",
+            "edit",
+            "apply_patch",
+            "browser",
+            "web_search"
+          ]
+        }
+      },
+      {
+        "id": "researcher",
+        "subagents": {
+          "model": "anthropic/claude-sonnet-4"
+        }
+      },
+      {
+        "id": "coder"
+      },
+      {
+        "id": "orchestrator",
+        "subagents": {
+          "allowAgents": [
+            "researcher",
+            "coder"
+          ]
+        }
+      }
+    ]
+  },
+  "tools": {
+    "allow": [
+      "read",
+      "exec",
+      "process",
+      "write",
+      "edit",
+      "apply_patch",
+      "browser",
+      "web_search"
+    ],
+    "subagents": {
+      "tools": {
+        "allow": [
+          "read",
+          "exec",
+          "process",
+          "write",
+          "edit",
+          "apply_patch"
+        ]
+      }
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "allowFrom": [
+        "6735239700"
+      ],
+      "botToken": {
+        "source": "env",
+        "provider": "default",
+        "id": "TELEGRAM_BOT_TOKEN"
+      },
+      "groupPolicy": "allowlist",
+      "streaming": "partial",
+      "execApprovals": {
+        "enabled": true,
+        "approvers": [
+          "6735239700"
+        ],
+        "target": "both"
+      },
+      "capabilities": {
+        "inlineButtons": "allowlist"
+      }
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": {
+        "source": "env",
+        "provider": "default",
+        "id": "OPENCLAW_GATEWAY_TOKEN"
+      }
+    }
+  },
+  "skills": {
+    "entries": {
+      "apple-notes": {
+        "enabled": true
+      },
+      "notion": {
+        "apiKey": {
+          "source": "env",
+          "provider": "default",
+          "id": "NOTION_API_KEY"
+        }
+      },
+      "1password": {
+        "enabled": true
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "browser": {
+        "enabled": true
+      },
+      "telegram": {
+        "enabled": true
+      },
+      "nvidia": {
+        "enabled": true
+      },
+      "ollama": {
+        "enabled": true
+      }
+    }
+  }
+}
