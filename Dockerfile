@@ -46,8 +46,7 @@ RUN python3 -m venv /home/user/.local/venv && \
 
 RUN . /home/user/.local/venv/bin/activate && \
   cd /home/user/agent-environment/hermes/agent && \
-  pip install -e ".[all]" || pip install -e . ; \
-  deactivate
+  pip install -e ".[all]" || pip install -e .
 
 RUN mkdir -p /home/user/.npm-global && \
   npm config set prefix /home/user/.npm-global && \
@@ -59,8 +58,7 @@ RUN cd /home/user/agent-environment/hermes/agent && \
 RUN bash /home/user/agent-environment/bootstrap.sh
 
 RUN curl -fsSL https://github.com/rhasspy/piper/releases/download/2023.11.14-2/piper_linux_x86_64.tar.gz \
-  | tar xz -C /home/user/piper/ \
-  && chown -R user:user /home/user/piper
+  | tar xz -C /home/user/piper/
 
 RUN curl -fsSL -o /home/user/piper/voices/en_US-kusal-medium.onnx \
   "https://huggingface.co/ivofrank/agent-environment-storage/resolve/main/en_US-kusal-medium.onnx" || true
