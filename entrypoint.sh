@@ -1,4 +1,5 @@
 #!/bin/bash
+set -uo pipefail
 
 AGENT_ENV_DIR="/home/user/agent-environment"
 DATA_DIR="/data"
@@ -328,7 +329,7 @@ save_runtime_state() {
 while true; do sleep 60; save_runtime_state; done &
 SAVE_PID=$!
 
-trap save_runtime_state EXIT
+trap 'save_runtime_state; kill $SAVE_PID 2>/dev/null' EXIT
 
 exec code-server \
     --bind-addr 0.0.0.0:7860 \

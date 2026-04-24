@@ -16,7 +16,6 @@ setup_hermes() {
   cp -r "$AGENT_ENV_DIR/hermes/skills/"* "$HERMES_HOME/skills/" 2>/dev/null || true
 
   ln -sf "$HERMES_AGENT_SRC" "$HERMES_HOME/hermes-agent" 2>/dev/null || true
-  ln -sf "$HOME_DIR/.local/venv/bin/hermes" "$HOME_DIR/.local/bin/hermes" 2>/dev/null || true
 }
 
 setup_openclaw() {
