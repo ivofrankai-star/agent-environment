@@ -233,11 +233,14 @@ if [ -d "$DATA_DIR" ] && [ -w "$DATA_DIR" ]; then
         ln -sfn "$DATA_HERMES" "$HOME_DIR/.hermes/hermes-agent" 2>/dev/null || true
     fi
 
-    # ── Restore runtime state from /data/ ────────────────────────
-    if [ -f "$DATA_DIR/hermes-config/config.yaml" ]; then
-        cp "$DATA_DIR/hermes-config/config.yaml" "$HOME_DIR/.hermes/config.yaml" 2>/dev/null || true
-    fi
-    if [ -d "$DATA_DIR/openclaw-configs" ]; then
+# ── Restore runtime state from /data/ ────────────────────────
+# IMPORTANT: Hermes config.yaml uses ${VAR:-} template references for API keys.
+# If we restore the persisted config, old resolved keys would override new
+# HF Secrets. Instead, always start from the fresh template (which has ${VAR:-}
+# references), then overlay user model/provider changes from /data/ if any.
+# The fresh template gets current secret values at runtime.
+# (No config.yaml restore from /data/ — secrets always come from env)
+if [ -d "$DATA_DIR/openclaw-configs" ]; then
         cp -r "$DATA_DIR/openclaw-configs/"* "$HOME_DIR/.openclaw/" 2>/dev/null || true
     fi
     if [ -d "$DATA_DIR/code-server-user-data/User" ]; then
@@ -288,8 +291,10 @@ save_runtime_state() {
         mv "$DATA_DIR/pip-freeze.txt.tmp" "$DATA_DIR/pip-freeze.txt" 2>/dev/null || true
     fi
 
-    # Hermes config
-    if [ -f "$HOME_DIR/.hermes/config.yaml" ]; then
+ # Hermes config — persist user model/provider changes, but note:
+ # we DON'T restore this on boot (to avoid overriding fresh secrets).
+ # It serves as a backup user can inspect in /data/hermes-config/.
+ if [ -f "$HOME_DIR/.hermes/config.yaml" ]; then
         mkdir -p "$DATA_DIR/hermes-config"
         cp "$HOME_DIR/.hermes/config.yaml" "$DATA_DIR/hermes-config/config.yaml" 2>/dev/null || true
     fi
