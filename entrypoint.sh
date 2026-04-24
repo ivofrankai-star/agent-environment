@@ -39,6 +39,17 @@ done
 export NVIDIA_API_KEY="${NVIDIA_API_KEY:-}"
 export GITHUB_PERSONAL_ACCESS_TOKEN="${PAT_GITHUB:-}"
 
+# ── Substitute env vars into hermes config.yaml ────────────────
+# YAML doesn't do shell variable substitution — Hermes reads the
+# literal string. We must replace ${VAR:-} patterns with actual values.
+HERMES_CONFIG="$HOME_DIR/.hermes/config.yaml"
+if [ -f "$HERMES_CONFIG" ]; then
+    for var in NVIDIA_API_KEY OPENROUTER_API_KEY; do
+        val="${!var}"
+        sed -i "s|\${${var}:-}|${val}|g" "$HERMES_CONFIG"
+    done
+fi
+
 # ── /data/ persistence: universal install survival ──────────────
 # Everything the agent (or user) installs persists across rebuilds:
 #   pip install  → /data/venv/          (Python venv)
