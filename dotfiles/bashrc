@@ -121,6 +121,13 @@ export PATH="$HOME/.opencode/bin:$PATH"
 export PATH="$HOME/.npm-global/bin:$PATH"
 export NVIDIA_API_KEY="${NVIDIA_API_KEY:-}"
 
+# /data/ persistence paths (survive rebuilds)
+export PATH="/data/local-bin:/data/venv/bin:/data/npm-global/bin:/data/go/bin:/data/cargo/bin:$PATH"
+export GOPATH="/data/go"
+export CARGO_HOME="/data/cargo"
+export RUSTUP_HOME="/data/rustup"
+[ -d "/data/venv" ] && export VIRTUAL_ENV="/data/venv"
+
 # OpenClaw Completion
 [[ -f "$HOME/.openclaw/completions/openclaw.bash" ]] && source "$HOME/.openclaw/completions/openclaw.bash"
 [[ -x /home/linuxbrew/.linuxbrew/bin/brew ]] && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

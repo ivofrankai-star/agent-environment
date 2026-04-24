@@ -5,10 +5,13 @@ ENV PYTHONUNBUFFERED=1
 ENV HOME=/home/user
 ENV HERMES_HOME=/home/user/.hermes
 ENV OPENCLAW_HOME=/home/user/.openclaw
-ENV PATH="/home/user/.local/bin:/home/user/.npm-global/bin:/home/user/.local/venv/bin:${PATH}"
+ENV GOPATH=/data/go
+ENV CARGO_HOME=/data/cargo
+ENV RUSTUP_HOME=/data/rustup
+ENV PATH="/data/local-bin:/data/venv/bin:/data/npm-global/bin:/data/go/bin:/data/cargo/bin:/home/user/.local/venv/bin:/home/user/.npm-global/bin:${PATH}"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-build-essential python3 python3-pip python3-venv \
+build-essential python3 python3-pip python3-venv sudo \
 nodejs npm git curl wget ffmpeg ripgrep rsync \
 libffi-dev python3-dev procps ca-certificates \
 espeak-ng jq \
@@ -25,12 +28,13 @@ RUN curl -fsSL https://github.com/anomalyco/opencode/releases/download/v${OPENCO
   && chmod +x /usr/local/bin/opencode
 
 RUN useradd -m -s /bin/bash user \
-  && mkdir -p /home/user/.config/code-server \
-  /home/user/.local/share/code-server \
-  /home/user/.local/bin \
-  /home/user/.npm-global \
-  /home/user/piper/voices \
-  && chown -R user:user /home/user
+&& mkdir -p /home/user/.config/code-server \
+/home/user/.local/share/code-server \
+/home/user/.npm-global \
+/home/user/piper/voices \
+&& echo "user ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/user \
+&& chmod 440 /etc/sudoers.d/user \
+&& chown -R user:user /home/user
 
 WORKDIR /home/user/agent-environment
 COPY --chown=user:user . /home/user/agent-environment
@@ -42,10 +46,8 @@ COPY --chown=user:user config/code-server-user-settings.json /home/user/.local/s
 USER user
 
 RUN python3 -m venv /home/user/.local/venv && \
-  /home/user/.local/venv/bin/pip install --upgrade pip setuptools wheel && \
-  /home/user/.local/venv/bin/pip install -r /home/user/agent-environment/requirements/pip-requirements.txt && \
-  ln -sf /home/user/.local/venv/bin/pip3 /home/user/.local/bin/pip3 && \
-  ln -sf /home/user/.local/venv/bin/python3 /home/user/.local/bin/python3
+/home/user/.local/venv/bin/pip install --upgrade pip setuptools wheel && \
+/home/user/.local/venv/bin/pip install -r /home/user/agent-environment/requirements/pip-requirements.txt
 
 RUN . /home/user/.local/venv/bin/activate && \
   cd /home/user/agent-environment/hermes/agent && \
