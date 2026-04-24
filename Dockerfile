@@ -8,10 +8,10 @@ ENV OPENCLAW_HOME=/home/user/.openclaw
 ENV PATH="/home/user/.local/bin:/home/user/.npm-global/bin:/home/user/.local/venv/bin:${PATH}"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-  build-essential python3 python3-pip python3-venv \
-  nodejs npm git curl wget ffmpeg ripgrep \
-  libffi-dev python3-dev procps ca-certificates \
-  espeak-ng jq \
+build-essential python3 python3-pip python3-venv \
+nodejs npm git curl wget ffmpeg ripgrep rsync \
+libffi-dev python3-dev procps ca-certificates \
+espeak-ng jq \
   && rm -rf /var/lib/apt/lists/*
 
 ENV CODE_SERVER_VERSION=4.116.0
