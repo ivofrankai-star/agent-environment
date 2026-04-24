@@ -35,6 +35,9 @@ RUN useradd -m -s /bin/bash user \
 WORKDIR /home/user/agent-environment
 COPY --chown=user:user . /home/user/agent-environment
 COPY --chown=user:user config/code-server.yaml /home/user/.config/code-server/config.yaml
+RUN mkdir -p /home/user/.local/share/code-server/User && \
+  chown -R user:user /home/user/.local/share/code-server
+COPY --chown=user:user config/code-server-user-settings.json /home/user/.local/share/code-server/User/settings.json
 
 USER user
 
