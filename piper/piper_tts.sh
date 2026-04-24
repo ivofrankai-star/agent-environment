@@ -3,8 +3,8 @@
 # Usage: echo "text" | piper_tts.sh [output_path]
 # Output: ogg file path (for Telegram voice messages)
 
-MODEL="/home/ivo/piper/voices/en_US-kusal-medium.onnx"
-PIPER_DIR="/home/ivo/piper"
+MODEL="/home/user/piper/voices/en_US-kusal-medium.onnx"
+PIPER_DIR="/home/user/piper"
 export LD_LIBRARY_PATH="$PIPER_DIR/piper:$LD_LIBRARY_PATH"
 
 OUTPUT="${1:-/tmp/piper_tts_output.wav}"

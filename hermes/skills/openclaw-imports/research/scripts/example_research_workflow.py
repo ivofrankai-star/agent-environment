@@ -32,7 +32,7 @@ def youtube_research_example(topic, max_results=5):
     print(f"\n📺 YouTube Research: Finding videos on '{topic}'")
     
     # Search for videos
-    cmd = f"python /home/ivo/.openclaw/workspace/skills/youtube-research/scripts/youtube_search.py --search \"{topic}\" --max {max_results} --brief"
+    cmd = f"python /home/user/.openclaw/workspace/skills/youtube-research/scripts/youtube_search.py --search \"{topic}\" --max {max_results} --brief"
     output = run_command(cmd, f"Searching YouTube for {max_results} videos on {topic}")
     
     if output:
@@ -83,7 +83,7 @@ def mixed_media_research_example(topic):
     
     # Step 1: Search YouTube for educational content
     print("   Step 1: Searching YouTube for educational content")
-    youtube_cmd = f"python /home/ivo/.openclaw/workspace/skills/youtube-research/scripts/youtube_search.py --search \"{topic} tutorial\" --max 3 --brief"
+    youtube_cmd = f"python /home/user/.openclaw/workspace/skills/youtube-research/scripts/youtube_search.py --search \"{topic} tutorial\" --max 3 --brief"
     youtube_results = run_command(youtube_cmd, "YouTube search")
     
     # Step 2: Create research notebook

@@ -18,7 +18,7 @@
       "spawnMode": "run",
       "label": "researcher-kimi",
       "model": "nvidia/moonshotai/kimi-k2.5",
-      "workspaceDir": "/home/ivo/.openclaw/workspace",
+      "workspaceDir": "/home/user/.openclaw/workspace",
       "runTimeoutSeconds": 0,
       "createdAt": 1774988101243,
       "startedAt": 1774988103946,

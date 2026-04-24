@@ -147,8 +147,8 @@ privacy:
 tts:
  provider: piper
  piper:
-  model: /home/ivo/piper/voices/en_US-kusal-medium.onnx
-  piper_dir: /home/ivo/piper
+  model: /home/user/piper/voices/en_US-kusal-medium.onnx
+  piper_dir: /home/user/piper
   default_voice: kusal
   edge:
     voice: en-US-ChristopherNeural
