@@ -10,12 +10,28 @@ setup_hermes() {
   HERMES_HOME="$HOME_DIR/.hermes"
   HERMES_AGENT_SRC="$AGENT_ENV_DIR/hermes/agent"
 
-  mkdir -p "$HERMES_HOME" "$HERMES_HOME/skills"
+  mkdir -p "$HERMES_HOME" "$HERMES_HOME/skills" "$HERMES_HOME/memories"
 
   cp "$AGENT_ENV_DIR/config/hermes-config.yaml" "$HERMES_HOME/config.yaml"
   cp -r "$AGENT_ENV_DIR/hermes/skills/"* "$HERMES_HOME/skills/" 2>/dev/null || true
 
   ln -sf "$HERMES_AGENT_SRC" "$HERMES_HOME/hermes-agent" 2>/dev/null || true
+
+  # Seed memory from OpenClaw user data (if present)
+  if [ -f "$AGENT_ENV_DIR/openclaw/workspace/USER.md" ] && [ ! -f "$HERMES_HOME/memories/USER.md" ]; then
+    cp "$AGENT_ENV_DIR/openclaw/workspace/USER.md" "$HERMES_HOME/memories/USER.md"
+    log "Seeded USER.md from OpenClaw workspace"
+  fi
+  if [ -f "$AGENT_ENV_DIR/openclaw/workspace/MEMORY.md" ] && [ ! -f "$HERMES_HOME/memories/MEMORY.md" ]; then
+    cp "$AGENT_ENV_DIR/openclaw/workspace/MEMORY.md" "$HERMES_HOME/memories/MEMORY.md"
+    log "Seeded MEMORY.md from OpenClaw workspace"
+  fi
+
+  # Seed SOUL.md from OpenClaw (agent personality)
+  if [ -f "$AGENT_ENV_DIR/openclaw/workspace/SOUL.md" ] && [ ! -f "$HERMES_HOME/SOUL.md" ]; then
+    cp "$AGENT_ENV_DIR/openclaw/workspace/SOUL.md" "$HERMES_HOME/SOUL.md"
+    log "Seeded SOUL.md from OpenClaw workspace"
+  fi
 }
 
 setup_openclaw() {

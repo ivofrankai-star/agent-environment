@@ -79,18 +79,19 @@ if [ -d "$DATA_DIR" ] && [ -w "$DATA_DIR" ]; then
     APT_SOURCES_DIR="$DATA_DIR/apt-sources"
 
     # ── Create /data/ directory structure ────────────────────────
-    mkdir -p "$DATA_DIR/code-server-user-data" \
-        "$DATA_DIR/hermes-history" \
-        "$DATA_DIR/hermes-config" \
-        "$DATA_DIR/openclaw-sessions" \
-        "$DATA_DIR/openclaw-configs" \
-        "$DATA_DIR/bash-history" \
-        "$DATA_LOCAL_BIN" \
-        "$DATA_WORKSPACE" \
-        "$DATA_DIR/go" \
-        "$DATA_DIR/cargo" \
-        "$DATA_DIR/rustup" \
-        "$APT_SOURCES_DIR"
+ mkdir -p "$DATA_DIR/code-server-user-data" \
+ "$DATA_DIR/hermes-history" \
+ "$DATA_DIR/hermes-config" \
+ "$DATA_DIR/hermes-memories" \
+ "$DATA_DIR/openclaw-sessions" \
+ "$DATA_DIR/openclaw-configs" \
+ "$DATA_DIR/bash-history" \
+ "$DATA_LOCAL_BIN" \
+ "$DATA_WORKSPACE" \
+ "$DATA_DIR/go" \
+ "$DATA_DIR/cargo" \
+ "$DATA_DIR/rustup" \
+ "$APT_SOURCES_DIR"
 
     # ── Symlinks: make /data/ the transparent default ────────────
     # ~/.local/bin → /data/local-bin/  (any binary the agent drops here persists)
@@ -265,11 +266,20 @@ if [ -d "$DATA_DIR/openclaw-configs" ]; then
         mkdir -p "$HOME_DIR/.hermes/hermes-agent/sessions"
         cp -r "$DATA_DIR/hermes-history/sessions/"* "$HOME_DIR/.hermes/hermes-agent/sessions/" 2>/dev/null || true
     fi
-    if [ -d "$DATA_DIR/openclaw-sessions/sessions" ]; then
-        OC_AGENTS="$HOME_DIR/.openclaw/agents/main/sessions"
-        mkdir -p "$OC_AGENTS"
-        cp -r "$DATA_DIR/openclaw-sessions/sessions/"* "$OC_AGENTS/" 2>/dev/null || true
-    fi
+if [ -d "$DATA_DIR/openclaw-sessions/sessions" ]; then
+    OC_AGENTS="$HOME_DIR/.openclaw/agents/main/sessions"
+    mkdir -p "$OC_AGENTS"
+    cp -r "$DATA_DIR/openclaw-sessions/sessions/"* "$OC_AGENTS/" 2>/dev/null || true
+fi
+# Hermes memories (MEMORY.md, USER.md) — always restore from /data/
+if [ -d "$DATA_DIR/hermes-memories" ]; then
+    mkdir -p "$HOME_DIR/.hermes/memories"
+    cp -r "$DATA_DIR/hermes-memories/"* "$HOME_DIR/.hermes/memories/" 2>/dev/null || true
+fi
+# SOUL.md — always restore from /data/ if present
+if [ -f "$DATA_DIR/hermes-config/SOUL.md" ]; then
+    cp "$DATA_DIR/hermes-config/SOUL.md" "$HOME_DIR/.hermes/SOUL.md" 2>/dev/null || true
+fi
 fi
 
 # ── Background state tracker ────────────────────────────────────
@@ -306,9 +316,21 @@ save_runtime_state() {
  # we DON'T restore this on boot (to avoid overriding fresh secrets).
  # It serves as a backup user can inspect in /data/hermes-config/.
  if [ -f "$HOME_DIR/.hermes/config.yaml" ]; then
-        mkdir -p "$DATA_DIR/hermes-config"
-        cp "$HOME_DIR/.hermes/config.yaml" "$DATA_DIR/hermes-config/config.yaml" 2>/dev/null || true
-    fi
+ mkdir -p "$DATA_DIR/hermes-config"
+ cp "$HOME_DIR/.hermes/config.yaml" "$DATA_DIR/hermes-config/config.yaml" 2>/dev/null || true
+ fi
+
+ # SOUL.md (agent personality)
+ if [ -f "$HOME_DIR/.hermes/SOUL.md" ]; then
+ mkdir -p "$DATA_DIR/hermes-config"
+ cp "$HOME_DIR/.hermes/SOUL.md" "$DATA_DIR/hermes-config/SOUL.md" 2>/dev/null || true
+ fi
+
+ # Hermes memories (MEMORY.md, USER.md)
+ if [ -d "$HOME_DIR/.hermes/memories" ]; then
+ mkdir -p "$DATA_DIR/hermes-memories"
+ cp -r "$HOME_DIR/.hermes/memories/"* "$DATA_DIR/hermes-memories/" 2>/dev/null || true
+ fi
 
     # Openclaw configs
     if [ -d "$HOME_DIR/.openclaw" ]; then
